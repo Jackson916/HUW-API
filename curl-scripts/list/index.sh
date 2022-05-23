@@ -1,7 +1,8 @@
 #!/bin/sh
+# TOKEN="eb60046652d1b38c2d08312c69e106b7"
 
 API="http://localhost:4741"
-URL_PATH="/examples"
+URL_PATH="/list"
 
 curl "${API}${URL_PATH}" \
   --include \
