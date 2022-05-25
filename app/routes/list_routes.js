@@ -29,7 +29,7 @@ const router = express.Router()
 
 // INDEX
 // GET /examples
-router.get('/list', requireToken, (req, res, next) => {
+router.get('/lists', requireToken, (req, res, next) => {
   List.find()
     .then(list => {
       // `examples` will be an array of Mongoose documents
@@ -57,7 +57,7 @@ router.get('/list/:id', requireToken, (req, res, next) => {
 
 // CREATE
 // POST /examples
-router.post('/list', requireToken, (req, res, next) => {
+router.post('/create-list', requireToken, (req, res, next) => {
   // set owner of new example to be current user
   req.body.list.owner = req.user.id
 
@@ -84,10 +84,10 @@ router.patch('/list/:id', requireToken, removeBlanks, (req, res, next) => {
     .then(list => {
       // pass the `req` object and the Mongoose record to `requireOwnership`
       // it will throw an error if the current user isn't the owner
-      requireOwnership(req, List)
+      requireOwnership(req, list)
 
       // pass the result of Mongoose's `.update` to the next `.then`
-      return List.updateOne(req.body.list)
+      return list.updateOne(req.body.list)
     })
     // if that succeeded, return 204 and no JSON
     .then(() => res.sendStatus(204))
@@ -104,7 +104,7 @@ router.delete('/list/:id', requireToken, (req, res, next) => {
       // throw an error if current user doesn't own `example`
       requireOwnership(req, list)
       // delete the example ONLY IF the above didn't throw
-      List.deleteOne()
+      list.deleteOne()
     })
     // send back 204 and no content if the deletion succeeded
     .then(() => res.sendStatus(204))
