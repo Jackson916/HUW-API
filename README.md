@@ -39,8 +39,8 @@ An Application that allows you to be able create packing list for military movem
 | GET           | /lists          | read list of items   | index or list    |
 | GET           | /list/`:id`     | read single item     | show or retrieve |
 | POST          | /create-list    | create list          | create           |
-| PATCH         | /profiles/`:id` | update list          | update           |
-| DELETE        | /profiles/`:id` | delete list          | destroy          |
+| PATCH         | /list/`:id` | update list          | update           |
+| DELETE        | /list/`:id` | delete list          | destroy          |
 
 
 
