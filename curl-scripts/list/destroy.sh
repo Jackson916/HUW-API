@@ -1,6 +1,6 @@
 #!/bin/bash
-# ID="628bac9c0bfa111f59109d74"
-# TOKEN="eb60046652d1b38c2d08312c69e106b7"
+# ID="628bf64e673a0d0016b88722"
+# TOKEN="cef5f25051f8dff1a49c64f0c32e0350"
 API="http://localhost:4741"
 URL_PATH="/list"
 
