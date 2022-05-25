@@ -1,22 +1,21 @@
-# ReChat
+# H.U.W
+
+
 ## Introduction
-A Chat app that allows you to easily connect and chat with others in a chat room, communicating seamlessly in real time.
-## Using ReChat
+An Application that allows you to be able create packing list for military movements.
+
+## Using H.U.W
 1. Sign Up: If you're a first time user, sign up with your email and password.
 2. Sign In: If you're already registered, congrats! Click 'Sign In.' Change your password if needed.
-3. Creating a Profile: Create your own profile and make edits/delete if desired.
-4. Chat: Enter a chat room and send messages to other signed in users!
-5. Chat Log: View your messages in a chat and keep track of your conversation.
-6. Have fun! Use ReChat as a fun way to communicate with friends across the interwebs!
-
+3. Creating a Item: Create your own Item and make edits/delete if desired.
+4. Show a list of your items and are able to click on them to show the description
 
 
 ## User Stories    
 - User will be able to sign up.
 - User will be able to sign in, sign out and change password.
-- User will create a profile and be able to edit/delete profile.
-- User will be able to enter a chat room and send messages to another signed in user.
-- User will be able to view messages in a chat.
+- User will create a item and be able to edit/delete items.
+- User will be able to show the list of items
 
 ## Entity Relationship Diagram
 [ERD](./public/ERD.png)
