@@ -18,7 +18,7 @@ An Application that allows you to be able create packing list for military movem
 - User will be able to show the list of items
 
 ## Entity Relationship Diagram
-[ERD](./public/ERD.png)
+[ERD](./config/ERD.png)
 
 ## API Routes
 
