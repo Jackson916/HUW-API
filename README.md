@@ -30,9 +30,9 @@ An Application that allows you to be able create packing list for military movem
 
 | HTTP Method   | URL Path        | Result               | Action           |
 |:--------------|:----------------|:---------------------|:-----------------|
-| POST          | /sign-up        | create profile       | create           |
-| POST          | /sign-in        | get single profile   | show or retrieve |
-| DELETE        | /sign-out       | delete profile       | destroy          |
+| POST          | /sign-up        | create account      | create           |
+| POST          | /sign-in        | get single account   | show or retrieve |
+| DELETE        | /sign-out       | delete account       | destroy          |
 | PATCH         | /change-password| update password      | update           |
 
 
@@ -52,10 +52,10 @@ An Application that allows you to be able create packing list for military movem
 
 |    Libraries      | Languages        | Frameworks              | Database          | Version Control
 |:-----------------------------------------|:----------------|:---------------------|:-----------------|:-----------------|
-| [React.js](https://reactjs.org/)       |    [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)        |  [Express](https://expressjs.com/) | [MongoDB](https://www.mongodb.com/)   | [GitHub](https://github.com/) |       | [Javascript](https://www.javascript.com/)          | [BootStrap](https://getbootstrap.com/)       |           |
-|  [Axios](https://www.npmjs.com/package/axios)         | [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)          |        |          |
-|    [Mongoose](https://mongoosejs.com/)        |           |        |         |
-|          |          |       |         |
+| [React.js](https://reactjs.org/)       |    [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)        |  [Express](https://expressjs.com/) | [MongoDB](https://www.mongodb.com/)   | [GitHub](https://github.com/) |
+|       [Axios](https://www.npmjs.com/package/axios)     | [Javascript](https://www.javascript.com/)          | [BootStrap](https://getbootstrap.com/)       |           |
+|      [Mongoose](https://mongoosejs.com/)    | [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)          |        |          |
+
 
 
   
